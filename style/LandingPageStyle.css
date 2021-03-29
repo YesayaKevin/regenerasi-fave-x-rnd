@@ -11,3 +11,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#LandingPageNavContainer{
+    position: absolute;
+    width: 221px;
+    height: 23px;
+    left: 75px;
+    top: 75px;
+}
