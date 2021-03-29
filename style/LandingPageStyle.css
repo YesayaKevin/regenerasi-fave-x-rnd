@@ -5,7 +5,11 @@
 }
 
 #LandingPageBackground{
-    height: 150vh;
+    /* height: 150vh; */
+    width: 1756px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
     background-image: url(../image/landing-background.png);
     background-size: cover;
     background-position: center;
