@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - Budioskop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style-signup.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="container">
+            <img src="../image/logo.svg" alt="Budioskop.svg">
+            <div class="navbar-items">
+                <p>Have an account? </p>
+                <a href="">Login in now!</a>
+            </div>
+        </div>
+    </nav>
+    <section class="signup-section">
+        <div class="pic-25"></div>
+        <div class="container">
+            <div class="container-inside">
+                <div class="signup-text">
+                    <h5>WELCOME,</h5>
+                    <h3><span class="fill-the-form">FILL THE FORM</span>TO BRING THE WORLD INSIDE.</h3>
+                </div>
+                <form action="">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Please type your username...">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Please type your email...">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Please type your password...">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="password" id="password" placeholder="Please confirm your password...">
+                    <label for="upload-picture">Upload Picture</label>
+                    <input type="file" name="upload-picture" id="upload-picture">
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
