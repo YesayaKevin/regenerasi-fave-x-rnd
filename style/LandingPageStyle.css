@@ -6,10 +6,11 @@
 
 #LandingPageBackground{
     height: 100vh;
+
     background-image: url(../image/landing-background.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 #LandingPageNavContainer{
@@ -19,3 +20,22 @@
     left: 75px;
     top: 75px;
 }
+
+#BigTittleContainer{
+    position: absolute;
+    width: 737px;
+    height: 176px;
+    left: 97px;
+    top: 324px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+
+    color: #FFDA00;
+}
+
