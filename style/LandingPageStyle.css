@@ -21,7 +21,7 @@
     top: 75px;
 }
 
-#BigTittleContainer{
+#BigTittleContainer p{
     position: absolute;
     width: 737px;
     height: 176px;
@@ -33,9 +33,23 @@
     font-weight: 300;
     font-size: 72px;
     line-height: 88px;
-    display: flex;
-    align-items: center;
 
     color: #FFDA00;
+    border: 2px solid blue;
 }
 
+#SubTittleContainer h4{
+    position: absolute;
+    width: 593px;
+    height: 57px;
+    left: 97px;
+    top: 535px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
