@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+    bottom: 0;
+    background-image: url(../image/landing-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#LandingPageNavContainer{
+    position: absolute;
+    width: 221px;
+    height: 23px;
+    left: 50px;
+    top: 30px;
+}
+
+#LandingPageBigTittleContainer p{
+    position: absolute;
+    width: 737px;
+    height: 176px;
+    left: 97px;
+    top: 215px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 88px;
+
+    color: #FFDA00;
+}
+
+#LandingPageSubTittleContainer p{
+    position: absolute;
+    width: 500px;
+    height: 57px;
+    left: 97px;
+    top: 420px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+#LandingPageBTNContainer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+#LandingPageBTNContainer .BTNSignUp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px 100px;
+
+    position: absolute;
+    width: 299px;
+    height: 69px;
+    left: 97px;
+    top: 545px;
+
+    background: #FFDA00;
+    border-radius: 15px;
+}
+
+#LandingPageBTNContainer .BTNSignUp p{
+    position: static;
+    width: 99px;
+    height: 29px;
+    left: 100px;
+    top: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #001231;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+#LandingPageBTNContainer .BTNLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 100px;
+
+    position: absolute;
+    width: 279px;
+    height: 69px;
+    left: 465px;
+    top: 545px;
+
+    border: 2px solid #FFDA00;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    background: none;
+}
+
+#LandingPageBTNContainer .BTNLogin p{
+    position: static;
+    width: 79px;
+    height: 29px;
+    left: 100px;
+    top: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFDA00;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
