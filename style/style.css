@@ -2,6 +2,20 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: white;
 }
 
+.bg-black-wp{
+    background-color: #222324;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.text-yellow{
+    color: #FFDA00;
+}
+
+.bg-yellow{
+    background-color: #FFDA00;
+}
