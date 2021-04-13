@@ -5,3 +5,15 @@ body{
     color: rgba(255,218,0,1);
     font-family: 'Montserrat', sans-serif;
 }
+
+.HomePageLandingContainer{
+    height: 60rem;
+    background-image: url(../image/Home-Page-Background.png);
+    background-size: cover;
+    padding-top: 18rem;
+    padding-left: 60rem;
+}
+
+.HomePageContentContainer{
+    margin-top: 15rem;
+}
