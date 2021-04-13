@@ -8,6 +8,9 @@
     background-color: #222324;
 }
 
+.bg-black-wph{
+    background-color: #232425;
+}
 .h-100vh{
     height: 100vh;
 }
@@ -18,4 +21,13 @@
 
 .bg-yellow{
     background-color: #FFDA00;
+}
+
+/* Background setting */
+
+.bg-landing{
+    background-image: url(../image/landing-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
