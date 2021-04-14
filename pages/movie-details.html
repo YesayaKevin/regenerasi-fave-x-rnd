@@ -81,8 +81,44 @@
             Temporibus ipsum officiis accusamus quasi minima omnis ducimus doloribus eos fugiat consequatur accusantium, cum ad. Nesciunt accusantium dignissimos odit quaerat, commodi, perferendis dolorum amet repudiandae omnis, magnam ipsa veniam quo.</p>
             <p class="flex justify-end text-sm text-yellow-300">Sent Hour : Minute</p>
         </div>
-
         <button class="font-bold px-8 py-4 mt-12 mb-36 bg-yellow-300 w-1/4 self-center rounded-xl">Give Comments</button>
     </section>
+    <!-- Modal Section -->
+
+    <!-- Post Comment Modal -->
+    <div id="modalComment-1" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+        <div id="modalContent-1" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
+            <button class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
+            <div class="w-full flex flex-col justify-center items-center space-y-4">
+                <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
+                <h1 class="text-yellow text-4xl font-bold">USERNAME</h1>
+            </div>
+            <form class="w-full flex flex-col space-y-4 justify-between " action="">
+                <label class="text-yellow" for="ratings">Ratings</label>
+                <input class="text-white text-sm placeholder-gray-300 border-2 bg-transparent p-2" type="number" name="ratings" id="ratings" placeholder="Please type your ratings..">
+                <label class="text-yellow" for="comments">Comments</label>
+                <input class="text-white text-sm placeholder-gray-300 border-2 bg-transparent p-2" type="text" name="comments" id="comments" placeholder="Please type your comments..">
+                <button class=" w-1/2 self-center bg-yellow-300 font-bold text-xl flex items-center justify-center rounded-xl p-2" type="submit">Post Comment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Update Comment Modal -->
+    <div id="modalComment-2" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+        <div id="modalContent-2" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
+            <button class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
+            <div class="w-full flex flex-col justify-center items-center space-y-4">
+                <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
+                <h1 class="text-yellow text-4xl font-bold">USERNAME</h1>
+            </div>
+            <form class="w-full flex flex-col space-y-4 justify-between " action="">
+                <label class="text-yellow" for="ratings">Ratings</label>
+                <input class="text-white text-sm placeholder-gray-300 border-2 bg-transparent p-2" type="number" name="ratings" id="ratings" placeholder="Please type your ratings..">
+                <label class="text-yellow" for="comments">Comments</label>
+                <input class="text-white text-sm placeholder-gray-300 border-2 bg-transparent p-2" type="text" name="comments" id="comments" placeholder="Please type your comments..">
+                <button class=" w-1/2 self-center bg-yellow-300 font-bold text-xl flex items-center justify-center rounded-xl p-2" type="submit">Update Comment</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
