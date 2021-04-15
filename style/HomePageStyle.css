@@ -8,8 +8,6 @@ body{
 
 .HomePageLandingContainer{
     height: 60rem;
-    background-image: url(../image/Home-Page-Background.png);
-    background-size: cover;
     padding-top: 18rem;
     padding-left: 60rem;
 }
