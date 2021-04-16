@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
 </head>
+
 <body>
     <nav class="w-full fixed top-0 z-50">
         <div class="mx-16 my-8 flex flex-row justify-center md:justify-start">
-            <img src="../image/logo.svg" alt="Budioskop.svg">
+            <img class="ml-14 md:ml-32 lg:ml-60" src="../image/logo.svg" alt="Budioskop.svg">
         </div>
     </nav>
     <section class="max-h-full flex">
@@ -22,28 +24,55 @@
             <div class="bg-black-wp pr-8 md:pr-24 w-full h-100vh flex-col lg:flex-row flex py-24">
                 <div class="w-full mb-12 lg:mb-0 lg:w-1/4 pl-8 flex flex-col justify-center">
                     <h5 class="mb-2 text-yellow leading-relaxed lg:leading-normal text-md">HI THERE!,</h5>
-                    <h3 class="text-yellow leading-relaxed lg:leading-normal text-lg sm:text-2xl md:text-3xl lg:text-4xl"><span class="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold">ADD</span> YOUR MOVIES NOW TO HAVE A HOLLYWOOD IN YOUR HOME.</h3>
+                    <h3
+                        class="text-yellow leading-relaxed lg:leading-normal text-lg sm:text-2xl md:text-3xl lg:text-4xl">
+                        <span class="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold">ADD</span> YOUR MOVIES NOW
+                        TO HAVE A HOLLYWOOD IN YOUR HOME.
+                    </h3>
                 </div>
                 <form action="" class="pl-8 lg:pl-12 lg:w-3/4 flex flex-col overflow-auto">
                     <label class="text-yellow mb-4 text-xl" for="film">Film Name</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl " type="text" id="film" placeholder="Please type the film name..">
+                    <input
+                        class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl "
+                        type="text" id="film" placeholder="Please type the film name..">
                     <label class="text-yellow mb-4 text-xl" for="release">Release Date</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl" type="date" id="release" placeholder="MM/DD/YYYY">
+                    <input
+                        class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl"
+                        type="date" id="release" placeholder="MM/DD/YYYY">
                     <label class="text-yellow mb-4 text-xl" for="duration">Duration</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl " type="text" id="duration" placeholder="00:00:00">
+                    <input
+                        class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl "
+                        type="text" id="duration" placeholder="00:00:00">
                     <label class="text-yellow mb-4 text-xl" for="screenshoots">Upload Picture</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl" type="file" accept="image/*" name="screenshoots" id="screenshoots-1" placeholder=" please input the screenshoots..">
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl" type="file" accept="image/*" name="screenshoots" id="screenshoots-2" placeholder=" please input the screenshoots..">
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl" type="file" accept="image/*" name="screenshoots" id="screenshoots-3" placeholder=" please input the screenshoots..">
+                    <input
+                        class="text-white mb-4 pb-6 md:pb-9 px-1 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl"
+                        type="file" accept="image/*" name="screenshoots" id="screenshoots-1"
+                        placeholder=" please input the screenshoots..">
+                    <input
+                        class="text-white mb-4 pb-6 md:pb-9 px-1 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl"
+                        type="file" accept="image/*" name="screenshoots" id="screenshoots-2"
+                        placeholder=" please input the screenshoots..">
+                    <input
+                        class="text-white mb-4 pb-6 md:pb-9 px-1 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl"
+                        type="file" accept="image/*" name="screenshoots" id="screenshoots-3"
+                        placeholder=" please input the screenshoots..">
                     <label class="text-yellow mb-4 text-xl" for="desc">Upload Description</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl " type="text" id="desc" placeholder="Please type the movie's description..">
+                    <input
+                        class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl "
+                        type="text" id="desc" placeholder="Please type the movie's description..">
                     <label class="text-yellow mb-4 text-xl" for="link">Trailer Link</label>
-                    <input class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl " type="text" id="link" placeholder="Please type the trailer's link..">
-                    <button type="submit" class="w-2/3 sm:w-1/3 lg:w-1/4 mt-8 self-center bg-yellow rounded-2xl py-4 font-bold mt-16">Add Movie</button>
-                    <a class="w-2/3 sm:w-1/3 lg:w-1/4 self-center bg-transparent border-2 border-yellow-300 rounded-2xl py-4 font-bold mt-4 flex justify-center text-yellow" href="#">Back</a>
+                    <input
+                        class="text-white mb-4 py-2 px-2 border-2 border-yellow-300 bg-transparent text-xs sm:text-sm md:text-lg lg:text-xl "
+                        type="text" id="link" placeholder="Please type the trailer's link..">
+                    <button type="submit"
+                        class="w-2/3 sm:w-1/3 lg:w-1/4 mt-8 self-center bg-yellow rounded-2xl py-4 font-bold mt-16">Add
+                        Movie</button>
+                    <a class="w-2/3 sm:w-1/3 lg:w-1/4 self-center bg-transparent border-2 border-yellow-300 rounded-2xl py-4 font-bold mt-4 flex justify-center text-yellow"
+                        href="#">Back</a>
                 </form>
             </div>
         </div>
     </section>
 </body>
+
 </html>
