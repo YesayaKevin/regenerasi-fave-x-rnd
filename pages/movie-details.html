@@ -31,10 +31,10 @@
                     <p>Duration Hours : Minutes : Seconds</p>
                 </div>
             </div>
-            <button class="h-2/3 flex px-6 py-2 space-x-4 items-center border-2 border-yellow-300 rounded-2xl">
+            <a href="../pages/edit-movie.html" class="h-2/3 flex px-6 py-2 space-x-4 items-center border-2 border-yellow-300 rounded-2xl">
                 <img class="w-6" src="../image/pencil.svg" alt="">
                 <p class="text-yellow">Edit</p>
-            </button>
+            </a>
         </div>
         <hr class="my-4 border-solid border-yellow-300">
         <p class="text-white text-sm mb-12">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo exercitationem odio dignissimos, iste aut recusandae facere consequuntur officiis eius. Laboriosam nobis doloribus ratione consectetur eaque enim quia, praesentium totam unde?
@@ -53,13 +53,13 @@
         <div class="flex flex-col space-y-4 mb-2">
             <div class="flex justify-between">
                 <div class="flex space-x-4">
-                    <img src="../image/pencil.svg" alt="">
+                    <img width="75px" height="75px" src="../image/peopleImageAdd.png" alt="">
                     <div class="flex flex-col text-yellow-300">
                         <h2 class="text-2xl">Username</h2>
                         <h3 class="text-xl">Rating</h3>
                     </div>
                 </div>
-                <a class="m-0 p-0 flex items-end" href="#"><img class="w-6" src="../image/pencil.svg" alt=""></a>
+                <button onclick="showModal2()" class="m-0 p-0 flex items-end" href="#"><img class="w-6" src="../image/pencil.svg" alt=""></button>
             </div>
             <p class="text-white text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quia at mollitia quidem dignissimos accusantium totam aliquid fugiat culpa eveniet repellat earum, eaque nemo atque rem voluptas iusto exercitationem quos.
             Temporibus ipsum officiis accusamus quasi minima omnis ducimus doloribus eos fugiat consequatur accusantium, cum ad. Nesciunt accusantium dignissimos odit quaerat, commodi, perferendis dolorum amet repudiandae omnis, magnam ipsa veniam quo.</p>
@@ -69,26 +69,26 @@
         <div class="flex flex-col space-y-4 mb-2">
             <div class="flex justify-between">
                 <div class="flex space-x-4">
-                    <img src="../image/pencil.svg" alt="">
+                    <img width="75px" height="75px" src="../image/peopleImageAdd.png" alt="">
                     <div class="flex flex-col text-yellow-300">
                         <h2 class="text-2xl">Username</h2>
                         <h3 class="text-xl">Rating</h3>
                     </div>
                 </div>
-                <a class="m-0 p-0 flex items-end" href="#"><img class="w-6" src="../image/pencil.svg" alt=""></a>
+                <button onclick="showModal2()" class="m-0 p-0 flex items-end" href="#"><img class="w-6" src="../image/pencil.svg" alt=""></button>
             </div>
             <p class="text-white text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quia at mollitia quidem dignissimos accusantium totam aliquid fugiat culpa eveniet repellat earum, eaque nemo atque rem voluptas iusto exercitationem quos.
             Temporibus ipsum officiis accusamus quasi minima omnis ducimus doloribus eos fugiat consequatur accusantium, cum ad. Nesciunt accusantium dignissimos odit quaerat, commodi, perferendis dolorum amet repudiandae omnis, magnam ipsa veniam quo.</p>
             <p class="flex justify-end text-sm text-yellow-300">Sent Hour : Minute</p>
         </div>
-        <button class="font-bold px-8 py-4 mt-12 mb-36 bg-yellow-300 w-1/4 self-center rounded-xl">Give Comments</button>
+        <button onclick="showModal1()" class="font-bold px-8 py-4 mt-12 mb-36 bg-yellow-300 w-1/4 self-center rounded-xl">Give Comments</button>
     </section>
     <!-- Modal Section -->
 
     <!-- Post Comment Modal -->
-    <div id="modalComment-1" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+    <div id="modalComment-1" onclick="showModal1()" style="display: none;" class="z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
         <div id="modalContent-1" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
-            <button class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
+            <button id="deleted-1" onclick="closeModal1()" class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
             <div class="w-full flex flex-col justify-center items-center space-y-4">
                 <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
                 <h1 class="text-yellow text-4xl font-bold">USERNAME</h1>
@@ -104,9 +104,9 @@
     </div>
 
     <!-- Update Comment Modal -->
-    <div id="modalComment-2" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+    <div id="modalComment-2" onclick="showModal2()" style="display: none;" class="z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
         <div id="modalContent-2" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
-            <button class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
+            <button id="deleted-2" onclick="closeModal2()" class="self-end text-6xl text-yellow font-bold p-0 m-0">&times;</button>
             <div class="w-full flex flex-col justify-center items-center space-y-4">
                 <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
                 <h1 class="text-yellow text-4xl font-bold">USERNAME</h1>
@@ -120,5 +120,6 @@
             </form>
         </div>
     </div>
+    <script src="../script/movie-detail.js"></script>
 </body>
 </html>

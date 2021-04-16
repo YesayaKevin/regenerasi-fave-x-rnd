@@ -25,7 +25,7 @@
                         <h5 class="mb-2 text-yellow leading-relaxed lg:leading-normal text-md">A GOOD NEWS,</h5>
                         <h3 class="text-yellow leading-relaxed lg:leading-normal text-lg sm:text-2xl md:text-3xl lg:text-4xl"><span class="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold">EDIT</span> YOUR MOVIES IN A BLINK OF YOUR EYE.</h3>
                     </div>
-                    <button class="rounded-xl items-center w-auto self-center border-2 border-yellow-300 bg-transparent px-4 py-2 flex space-x-2">
+                    <button id="" onclick="showModal1()" class="rounded-xl items-center w-auto self-center border-2 border-yellow-300 bg-transparent px-4 py-2 flex space-x-2">
                         <img class="" src="../image/trash.svg" alt="trash.svg">
                         <p class="text-yellow text-2xl">Delete</p>
                     </button>
@@ -54,30 +54,29 @@
 
     <!-- Modal Section -->
     <!-- Delete Modal -->
-    <div id="modalComment-2" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
-        <div id="modalContent-2" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
+    <div id="modalComment-1" onclick="showModal1()" style="display: none;" class="z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+        <div id="modalContent-1" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
             <div class="w-full h-full flex flex-col justify-center items-center space-y-8 pb-12">
-                <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
+                <img width="100px" height="100px" src="../image/danger.svg" alt="">
                 <h1 class="text-yellow text-2xl text-center font-bold">Are you sure want to delete this movie?</h1>
                 <div class="flex space-x-12 w-full justify-center">
-                    <button class="w-1/3 bg-transparent border-2 border-yellow-300 rounded-2xl flex justify-center text-yellow py-2 px-4">Back</button>
-                    <form action="" class="w-1/3">
-                        <button class="w-full rounded-xl border-2 border-yellow-300 bg-yellow font-bold py-2 px-4">Delete</button>
-                    </form>
+                    <button id="deleted-1" onclick="closeModal1()" class="w-1/3 bg-transparent border-2 border-yellow-300 rounded-2xl flex justify-center text-yellow py-2 px-4">Back</button>
+                    <button onclick="verifyModal()" class="w-1/3 rounded-xl border-2 border-yellow-300 bg-yellow font-bold py-2 px-4">Delete</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Delete Successfull Modal -->
-    <div id="modalComment-2" class="flex hidden z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
+    <div id="modalComment-2" onclick="showModal2()" style="display: none;" class="z-100 top-0 fixed flex-col justify-center items-center h-full w-full bg-black-transparent">
         <div id="modalContent-2" class="bg-black-wp w-1/2 h-4/6 px-24 py-4 flex flex-col items-center border-2 border-white">
             <div class="w-full h-full flex flex-col justify-center items-center space-y-8 pb-16">
-                <img width="100px" height="100px" src="../image/peopleImageAdd.png" alt="">
+                <img width="100px" height="100px" src="../image/circled-check.svg" alt="">
                 <h1 class="text-yellow text-2xl text-center font-bold">This movie is succesfully deleted!</h1>
-                <button class=" w-1/2 self-center bg-yellow-300 font-bold text-xl flex items-center justify-center rounded-xl p-2" type="submit">Back to home</button>
+                <a href="../pages/HomePage.html" class=" w-1/2 self-center bg-yellow-300 font-bold text-xl flex items-center justify-center rounded-xl p-2">Back to home</a>
             </div>
         </div>
     </div>
+    <script src="../script/movie-detail.js"></script>
 </body>
 </html>
