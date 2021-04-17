@@ -36,7 +36,7 @@
 
 .bg-landing{
     background-image: url(../image/landing-background.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
 }
