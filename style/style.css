@@ -48,3 +48,10 @@
 .bg-black-transparent{
     background: rgba(27, 28, 30, 0.8);
 }
+
+.bg-addfile{
+    background-image: url(../image/peopleImageAdd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
