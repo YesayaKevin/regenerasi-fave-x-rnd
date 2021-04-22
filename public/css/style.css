@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-black-wp{
+    background-color: #222324;
+}
+
+.bg-black-wph{
+    background-color: #232425;
+}
+.h-100vh{
+    height: 100vh;
+}
+
+.text-yellow{
+    color: #FFDA00;
+}
+
+.z-100{
+    z-index: 1;
+}
+
+.modal{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Background setting */
+
+.bg-landing{
+    background-image: url(../image/landing-background.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-yellow{
+    background-color: #FFDA00;
+}
+
+.bg-black-transparent{
+    background: rgba(27, 28, 30, 0.8);
+}
+
+.bg-addfile{
+    background-image: url(../image/peopleImageAdd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
